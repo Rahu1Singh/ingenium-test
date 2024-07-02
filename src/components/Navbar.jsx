@@ -7,6 +7,7 @@ import { bizsafe, iso14001, iso45001, iso9001, logo, sme500 } from "../assets";
 import Button from "./Button";
 import Nav from "./Nav";
 import Hamburger from "./Hamburger";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [openNavigation, setOpenNavigation] = useState(false);
@@ -53,7 +54,7 @@ const Navbar = () => {
     return (
         <nav className={`sticky top-0 h-[80px] flex items-center justify-between px-6 ${openNavigation ? 'bg-n-8' : 'bg-white backdrop-blur-sm'} z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
             <div className="xl:px-6">
-                <a href="/"><img src={logo} className="w-[220px] lg:w-[280px]" alt="logo" /></a>
+                <NavLink to="/"><img src={logo} className="w-[220px] lg:w-[280px]" alt="logo" /></NavLink>
             </div>
             {/*<div className={`hidden lg:static lg:flex`}>
                 <Nav text='text-black' />
