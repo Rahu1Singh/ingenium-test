@@ -14,7 +14,7 @@ const FieldDevices = () => {
 const Header = () => {
     return (
         <section id="header" className='relative z-10 left-0 top-0 w-full h-[300px] xl:h-[460px] flex items-center lg:mb-10 border-b-[20px] border-b-800 rounded-bl-3xl rounded-br-3xl overflow-clip' style={{backgroundImage:"url(https://e0.pxfuel.com/wallpapers/95/181/desktop-wallpaper-automation-automation-industrial-automation-and-b-r-automation-rockwell-automation.jpg)", backgroundSize: "cover", backgroundPosition: "100% 90%"}}>
-            <h1 className='absolute bottom-16 left-[10%] text-5xl xl:text-6xl font-bold text-white z-20'>Field Devices</h1>
+            <h1 className='absolute bottom-16 left-[10%] text-5xl xl:text-6xl font-bold text-b-800 z-20'>Field Devices</h1>
             <div className="h-full w-full inset-0 bg-black/10" aria-hidden="true" />
         </section>
     )
