@@ -56,7 +56,7 @@ const InformationTechnology = () => {
 const Header = () => {
     return (
         <section id="header" className='relative z-10 left-0 top-0 w-full h-[300px] xl:h-[460px] flex items-center lg:mb-10 border-b-[20px] border-b-800 rounded-bl-3xl rounded-br-3xl overflow-clip' style={{backgroundImage:"url(https://www.swmich.edu/media/website/content-assets/images/general-images/Networking_171983987.jpg)", backgroundPosition: "100% 80%"}}>
-            <h1 className='absolute bottom-16 left-[10%] text-5xl xl:text-6xl font-medium text-b-300 z-20'> Information Technology <br/> & Networks</h1>
+            <h1 className='absolute bottom-16 left-[10%] text-5xl xl:text-6xl text-white font-bold z-20'> Information Technology <br/> & Networks</h1>
             <div className="h-full w-full bg-black/30" aria-hidden="true" />
         </section>
     )

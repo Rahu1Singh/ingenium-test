@@ -4,7 +4,7 @@ import { bmsproducts, paproducts } from "../products"
 
 const ChillerPlantManagement = () => {
   return (
-    <main>
+    <main className="bg-b-100 pb-10">
       <Header />
       <Intro />
       <article className=' max-lg:hidden flex flex-col items-center my-16 p-10'>

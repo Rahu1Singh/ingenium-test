@@ -30,7 +30,6 @@ const Navbar = () => {
         setOpenNavigation(false);
     };
 
-    
     const controlNavbar = () => {
         if (typeof window !== 'undefined') {
             if (window.scrollY > lastScrollY && window.scrollY > 80) { // if scroll down
@@ -39,7 +38,8 @@ const Navbar = () => {
                 setIsVisible(true);
             }
             setLastScrollY(window.scrollY);
-    }}
+        }
+    }
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
@@ -56,12 +56,6 @@ const Navbar = () => {
             <div className="xl:px-6">
                 <NavLink to="/"><img src={logo} className="w-[220px] lg:w-[280px]" alt="logo" /></NavLink>
             </div>
-            {/*<div className={`hidden lg:static lg:flex`}>
-                <Nav text='text-black' />
-            </div>
-            <div className={`hidden lg:flex 2xl:px-16`}>
-                <Button link="/contact">Contact Us</Button>
-            </div>*/}
             {!openNavigation && 
             <div className="flex h-full gap-x-10">
                 <div className="hidden lg:flex items-center gap-x-5 mx-10 py-1">

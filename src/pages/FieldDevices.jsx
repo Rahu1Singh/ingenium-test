@@ -3,7 +3,7 @@ import { fielddevices } from "../products"
 
 const FieldDevices = () => {
   return (
-        <main>
+        <main className="bg-b-100 pb-10">
             <Header />
             <Intro />
             <ProductsGrid productlist={fielddevices} />
