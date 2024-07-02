@@ -37,7 +37,7 @@ const InternetofThings = () => {
 
 const Header = () => {
     return (
-        <section id="header" className='relative z-10 left-0 top-0 w-full h-[300px] xl:h-[460px] flex items-center lg:mb-10 border-b-[20px] border-b-800 rounded-bl-3xl rounded-br-3xl overflow-clip' style={{backgroundImage:"url(https://img.freepik.com/free-photo/futuristic-smart-city-with-5g-global-network-technology_53876-98438.jpg?t=st=1719484400~exp=1719488000~hmac=1a88396996e61e8764d77783cab5a09653a68c226e7c185264637170103a9fb9&w=1380)", backgroundSize: "cover", backgroundPosition: "100% 90%"}}>
+        <section id="header" className='relative z-10 left-0 top-0 w-full h-[300px] xl:h-[460px] flex items-center lg:mb-10 border-b-[20px] border-b-800 rounded-bl-3xl rounded-br-3xl overflow-clip' style={{backgroundImage:"url(https://www.eripacific.com/wp-content/uploads/leveraging_IoT_facility_operations.jpg)", backgroundSize: "cover", backgroundPosition: "100% 90%"}}>
             <h1 className='absolute bottom-16 left-[10%] text-5xl xl:text-6xl font-bold text-white z-20'>Internet of Things</h1>
             <div className="h-full w-full inset-0 bg-black/10" aria-hidden="true" />
         </section>
