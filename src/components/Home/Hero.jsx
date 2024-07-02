@@ -8,7 +8,7 @@ const Hero = () => {
         <section id='hero' className='relative flex bg-b-100 px-2 md:px-8 lg:px-16 xl:px-24 py-8 md:max-h-[870px]' style={{backgroundImage: `url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`, backgroundSize:"cover", backgroundPosition: '50% 15%'}} aria-labelledby="hero">
             <div id='heroContent' className='relative flex flex-col justify-start items-start lg:mx-5 p-5 backdrop-blur-sm lg:w-1/2 z-5 text-white  rounded-2xl bg-black/30'>
                 <h1 className='md:py-10 text-2xl md:text-5xl lg:text-5xl xl:text-6xl font-extrabold leading-tight text-left'>
-                    Automate to Enhance<br className="max-md:hidden"/> & Empower futures <br className="max-md:hidden"/> with <span className='text-g-500'>Innovative <br className="max-md:hidden"/> solutions.</span>
+                    Automate to Enhance<br className="max-md:hidden"/> & Empower futures <br className="max-md:hidden"/> with <span className='text-b-400'>Innovative <br className="max-md:hidden"/> solutions.</span>
                 </h1>
                 {herotext.map((item) => (
                     <div key={item.id} className='hidden my-2 md:my-3 md:flex items-center justify-start z-10'>
