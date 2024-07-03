@@ -32,13 +32,13 @@ const InfiniteScroll2 = () => {
   return (
     <div className="hidden xl:flex flex-col items-center justify-center h-full w-1/2 overflow-hidden">
       <div className="flex flex-col animate-loop-scroll-2">
-        <HeroImage backgroundUrl="https://upload.wikimedia.org/wikipedia/commons/3/32/Chennai_Central.jpg" text="INDIA" />
+        <HeroImage backgroundUrl="https://www.nativeplanet.com/img/2016/08/1indiagate-23-1471954379.jpg" text="INDIA" />
         <HeroImage backgroundUrl="https://media.istockphoto.com/id/466842820/photo/petronas-towers.jpg?s=612x612&w=0&k=20&c=X_Kl-W_ulJEzjvaaT8gRNTQWHboyLKaedXol5EPhGdI=" text="MALAYSIA" />
         <HeroImage backgroundUrl="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/3d/9f/2d.jpg" text="SINGAPORE" />
         <HeroImage backgroundUrl="https://hblimg.mmtcdn.com/content/hubble/img/maingalleryimgs/mmt/activities/m_Jakarta_2_l_573_1000.jpg" text="INDONESIA" />
       </div>
       <div className="flex flex-col animate-loop-scroll-2" aria-hidden="true">
-        <HeroImage backgroundUrl="https://upload.wikimedia.org/wikipedia/commons/3/32/Chennai_Central.jpg" text="INDIA" />
+        <HeroImage backgroundUrl="https://www.nativeplanet.com/img/2016/08/1indiagate-23-1471954379.jpg" text="INDIA" />
         <HeroImage backgroundUrl="https://media.istockphoto.com/id/466842820/photo/petronas-towers.jpg?s=612x612&w=0&k=20&c=X_Kl-W_ulJEzjvaaT8gRNTQWHboyLKaedXol5EPhGdI=" text="MALAYSIA" />
         <HeroImage backgroundUrl="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/3d/9f/2d.jpg" text="SINGAPORE" />
         <HeroImage backgroundUrl="https://hblimg.mmtcdn.com/content/hubble/img/maingalleryimgs/mmt/activities/m_Jakarta_2_l_573_1000.jpg" text="INDONESIA" />
