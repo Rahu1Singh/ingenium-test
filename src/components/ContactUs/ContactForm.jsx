@@ -37,6 +37,7 @@ const ContactForm = () => {
           </div>
           <div className='flex flex-col w-3/4'>
             <span className="flex flex-row items-center my-1"><MdMail size={16} aria-hidden="true" /><p className="inline-block mx-3">sales@ingeniumiae.com</p></span>
+            <span className="flex flex-row items-center my-1"><MdMail size={16} aria-hidden="true" /><p className="inline-block mx-3">service@ingeniumiae.com</p></span>
             <span className="flex flex-row items-center my-1"><MdMail size={16} aria-hidden="true" /><p className="inline-block mx-3">enquiry@ingeniumiae.com</p></span>
           </div>
         </div>
