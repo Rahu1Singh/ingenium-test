@@ -119,6 +119,11 @@ import information from "./icons/producticons/information.png"
 import scalable from "./icons/producticons/scalable.png"
 import realtime from "./icons/producticons/realtime.png"
 
+//iot
+import safety from "./icons/producticons/safety.png"
+import accuracy from "./icons/producticons/accuracy.png"
+import busywork from "./icons/producticons/busywork.png"
+
 //services images
 import automationimg from "./images/automationimg.jpg"
 import itimg from "./images/itimg.jpg"
@@ -235,6 +240,10 @@ export {
     information,
     scalable,
     realtime,
+
+    safety,
+    accuracy,
+    busywork,
 
     automationimg,
     itimg,

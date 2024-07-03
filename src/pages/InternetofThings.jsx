@@ -1,4 +1,37 @@
-import { iotarch } from "../assets"
+import { accuracy, busywork, iotarch, realtime, safety, speed } from "../assets"
+
+const content = [
+    {
+        id: "0",
+        icon: speed,
+        title: "Improved Productivity",
+        text: "In traditional factories, manual tasks consume valuable time. With IIoT, smart factory allows remote control—just a laptop click away.",
+    },
+    {
+        id: "1",
+        icon: accuracy,
+        title: "Enhanced Accuracy",
+        text: "Complex machinery can hide subtle issues. IIoT sensors, however, are meticulous. They identify glitches down to the last bolt, saving time and costs.",
+    },
+    {
+        id: "2",
+        icon: safety,
+        title: "Enhanced Safety",
+        text: "Safety is paramount. Accidents happen, but IIoT minimizes risks. Predictive maintenance further reduces breakdowns and accidents.",
+    },
+    {
+        id: "3",
+        icon: busywork,
+        title: "Reducing Busywork",
+        text: "Smart machines handle repetitive tasks, freeing human resources for meaningful, skill-based work. The result? Improved production and overall returns.",
+    },
+    {
+        id: "4",
+        icon: realtime,
+        title: "Real-Time Monitoring",
+        text: "Monitor and manage your automated processes in real-time with our intuitive dashboards and reporting tools.",
+    },
+]
 
 const InternetofThings = () => {
     return (
@@ -12,24 +45,9 @@ const InternetofThings = () => {
                     <div className='absolute w-full h-full top-[30px] left-[30px] bg-b-800 rounded-3xl' aria-hidden="true"/>
                 </div> 
             </article>
-            <section className='mx-auto flex flex-col w-1/2 p-5'>
+            <section className='flex flex-col'>
                 <h1 className='relative text-center text-b-900 font-semibold text-3xl max-xl:text-3xl'>ADVANTAGES</h1>
-                <div className="relative flex m-5 h-[150px]">
-                <p className="absolute px-2 py-5 border-2 border-b-800 rounded-2xl bg-whitebg z-10 top-5 left-5 w-full h-[150px] hover:-translate-x-5 hover:-translate-y-5 transition-all flex flex-col justify-around"><span className="text-xl text-b-800 font-medium">Improved Efficiency and Productivity:</span> <br />In traditional factories, manual tasks consume valuable time. Imagine a worker manually activating and inspecting every machine on the factory floor. With IIoT, this changes dramatically. A smart factory allows remote control—just a laptop click away.</p>
-                    <div className='absolute w-full h-[150px] top-5 left-5 bg-b-800 rounded-3xl' aria-hidden="true"/>
-                </div>
-                <div className="relative flex m-5 h-[150px]">
-                    <p className="absolute px-2 py-5 border-2 border-b-800 rounded-2xl bg-whitebg z-10 top-5 left-5 w-full h-[150px] hover:-translate-x-5 hover:-translate-y-5 transition-all flex flex-col justify-around"><span className="text-xl text-b-800 font-medium">Enhanced Accuracy:</span> <br />Complex machinery can hide subtle issues. IIoT sensors, however, are meticulous. They identify glitches down to the last bolt, saving time and costs. Whether it is a factory machine or a remote agricultural patch, IIoT ensures accurate monitoring.</p>
-                    <div className='absolute w-full h-[150px] top-5 left-5 bg-b-800 rounded-3xl' aria-hidden="true"/>
-                </div>
-                <div className="relative flex m-5 h-[150px]">
-                <p className="absolute px-2 py-5 border-2 border-b-800 rounded-2xl bg-whitebg z-10 top-5 left-5 w-full h-[150px] hover:-translate-x-5 hover:-translate-y-5 transition-all flex flex-col justify-around"><span className="text-xl text-b-800 font-medium">Enhanced Safety:</span> <br />Safety is paramount. Accidents happen, but IIoT minimizes risks. Workers can monitor equipment remotely, eliminating much manual handling. Predictive maintenance further reduces breakdowns and accidents.</p>
-                    <div className='absolute w-full h-[150px] top-5 left-5 bg-b-800 rounded-3xl' aria-hidden="true"/>
-                </div>
-                <div className="relative flex m-5 h-[150px]">
-                <p className="absolute px-2 py-5 border-2 border-b-800 rounded-2xl bg-whitebg z-10 top-5 left-5 w-full h-[150px] hover:-translate-x-5 hover:-translate-y-5 transition-all flex flex-col justify-around"><span className="text-xl text-b-800 font-medium">Reducing Busywork:</span> <br />Smart machines handle repetitive tasks, freeing human resources. Workers can focus on meaningful, skill-based work. The result? Improved production and overall returns.</p>
-                    <div className='absolute w-full h-[150px] top-5 left-5 bg-b-800 rounded-3xl' aria-hidden="true"/>
-                </div>
+                <Advantages />
             </section>
         </main>
     )
@@ -51,6 +69,23 @@ const Intro = () => {
             <div className="w-[4px] bg-black" aria-hidden="true" />
             <p className="md:w-3/5 mx-10 flex items-center xl:text-[17px]">At Ingenium Automation, we offer IoT solutions that enhance industrial operations by connecting devices, centralizing data, and enabling real-time monitoring and control. Our approach empowers businesses to achieve seamless integration, provide better insights and make smarter-decisions.</p>
         </article>
+    )
+}
+
+const Advantages = () => {
+    return (
+        <section className="relative mx-auto mb-5 px-2 lg:my-10">
+            <div className="relative z-20 lg:h-[650px] lg:w-[650px] rounded-2xl bg-whitebg flex flex-col md:items-center lg:grid lg:grid-cols-3 lg:justify-items-center p-2 md:p-5 border-2 border-b-800">  
+                {content.map((item) => (
+                    <article key={item.id} className="lg:h-full lg:w-full flex lg:flex-col items-center p-2 md:my-5 lg:hover:bg-b-200 rounded-xl transition-all">
+                        <img src={item.icon} className="h-[40px] w-[40px] lg:h-[50px] lg:w-[50px] m-3"></img>
+                        <h1 className="font-bold text-[17px] text-start lg:text-center py-2 ">{item.title}</h1>
+                        <p className="hidden lg:block">{item.text}</p>
+                    </article>
+                ))}
+            </div>
+            <div className="hidden lg:block absolute md:top-[50px] md:right-[140px] lg:top-[30px] lg:left-[30px] z-10 h-[750px] w-[450px] lg:h-[650px] lg:w-[650px] rounded-2xl bg-b-800" aria-hidden="true" />
+        </section>
     )
 }
 
