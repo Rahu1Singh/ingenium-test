@@ -272,6 +272,52 @@ export const fireproducts = [
     },
 ]
 
+//safety products
+export const safetyproducts = [
+    {
+        id: "0",
+        name: "Security Expert Security Purpose Door Expansion",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=productimage_SP-RDM2&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/in/en/product/SP-RDM2/security-expert-security-purpose-door-expansion-module/",
+    },
+    {
+        id: "1",
+        name: "Security Expert Security Purpose IO Expansion",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=productimage_SP-IO84&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/au/en/product/SP-IO84/security-expert-security-purpose-input-output-expansion-module/",
+    },
+    {
+        id: "2",
+        name: "Security Expert Smartcard Readers",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=productimage_SX-DRD-SB_SX-RD-S&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/au/en/product/SX-RD-SB/security-expert-smartcard-reader-13-56mhz-mullion-black/",
+    },
+    {
+        id: "3",
+        name: "Security Expert Signo Wall Readers",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=SIGNO_40&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/fr/fr/product/40NKS0000038ESE01/hid-signo-40-wall-rdr-pigtail-std-prof-csi-format-multi-tech/",
+    },
+    {
+        id: "4",
+        name: "Keypads",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=productimage_SX-KLCS-B&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/au/en/product/SX-KLCS-B/security-expert-touch-sense-lcd-keypad-black/",
+    },
+    {
+        id: "5",
+        name: "Intercoms",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=Security_Expert_VoIP_INT-w-Cam&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/in/en/product/SX-IPI-C/security-expert-ip-intercom-with-camera-12vdc-350ma-5c55c-ip54-voip/",
+    }
+]
+
 //cctv products
 export const cctvproducts = [
     {

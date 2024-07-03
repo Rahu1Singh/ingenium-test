@@ -2,7 +2,7 @@ import EcostruxureFire from "../components/SafetyandSecurity/EcostruxureFire"
 import HikvisionCCTV from "../components/SafetyandSecurity/HikvisionCCTV"
 import HikvisionAC from "../components/SafetyandSecurity/HikvisionAC"
 import ProductsGrid from "../components/ProductsGrid"
-import { acproducts, cctvproducts, fireproducts } from "../products"
+import { acproducts, cctvproducts, fireproducts, safetyproducts } from "../products"
 import { fearch, search } from "../assets"
 
 const SafetyandSecurity = () => {
@@ -12,20 +12,23 @@ const SafetyandSecurity = () => {
       <Intro />
       <EcostruxureFire />
       <article className=' max-lg:hidden flex flex-col items-center my-16 p-10'>
-        <h1 className='relative text-b-900 font-semibold text-3xl max-xl:text-3xl mb-4'>ARCHITECTURE</h1>
-        <div className="flex gap-x-20">
+        <h1 className='relative text-b-900 font-semibold text-3xl max-xl:text-3xl mb-4'>ARCHITECTURE - FIRE EXPERT</h1>
         <div className='relative flex justify-center w-[850px]'>
           <img src={fearch} className='rounded-3xl z-10 border-4 border-b-800'/>
           <div className='absolute w-full h-full top-[30px] left-[30px] bg-b-800 rounded-3xl' aria-hidden="true" />
-        </div> 
+        </div>
+      </article>
+      <div className="my-32" aria-hidden="true" />
+      <ProductsGrid productlist={fireproducts}/>
+      <article className=' max-lg:hidden flex flex-col items-center my-16 p-10'>
+        <h1 className='relative text-b-900 font-semibold text-3xl max-xl:text-3xl mb-4'>ARCHITECTURE - SECURITY EXPERT</h1>
         <div className='relative flex justify-center w-[700px]'>
           <img src={search} className='rounded-3xl z-10 border-4 border-b-800'/>
           <div className='absolute w-full h-full top-[30px] left-[30px] bg-b-800 rounded-3xl' aria-hidden="true" />
         </div>
-        </div> 
       </article>
       <div className="my-32" aria-hidden="true" />
-      <ProductsGrid productlist={fireproducts}/>
+      <ProductsGrid productlist={safetyproducts} />
       <HikvisionCCTV />
       <div className="my-32" aria-hidden="true" />
       <ProductsGrid productlist={cctvproducts}/>
