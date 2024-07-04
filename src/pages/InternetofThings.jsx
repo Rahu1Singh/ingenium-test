@@ -59,7 +59,7 @@ const InternetofThings = () => {
 const Header = () => {
     return (
         <section id="header" className='relative z-10 left-0 top-0 w-full h-[300px] xl:h-[460px] flex items-center lg:mb-10 border-b-[20px] border-b-800 rounded-bl-3xl rounded-br-3xl overflow-clip' style={{backgroundImage:"url(https://www.eripacific.com/wp-content/uploads/leveraging_IoT_facility_operations.jpg)", backgroundSize: "cover", backgroundPosition: "100% 90%"}}>
-            <h1 className='absolute bottom-16 left-[10%] text-5xl xl:text-6xl font-bold text-white z-20'>Internet of Things</h1>
+            <h1 className='absolute bottom-16 left-[5%] lg:left-[10%] text-4xl xl:text-6xl font-bold text-white z-20'>Internet of Things</h1>
             <div className="h-full w-full inset-0 bg-black/10" aria-hidden="true" />
         </section>
     )
@@ -67,8 +67,8 @@ const Header = () => {
 
 const Intro = () => {
     return (
-        <article className="flex flex-col md:flex-row justify-center my-10 py-10 md:w-3/4 mx-auto">
-            <h1 className="md:w-2/5 mx-10 my-5 font-semibold text-b-900 text-3xl xl:text-4xl md:text-right">OUR PRODUCTS <br className="hidden md:block" />AND SOLUTIONS</h1>
+        <article className="flex flex-col md:flex-row justify-center my-10 py-10 xl:w-3/4 mx-auto">
+            <h1 className="md:w-2/5 mx-10 my-5 font-semibold text-b-900 text-2xl xl:text-4xl md:text-right">OUR PRODUCTS <br className="hidden md:block" />AND SOLUTIONS</h1>
             <div className="w-[4px] bg-black" aria-hidden="true" />
             <p className="md:w-3/5 mx-10 flex items-center xl:text-[17px]">At Ingenium Automation, we offer IoT solutions that enhance industrial operations by connecting devices, centralizing data, and enabling real-time monitoring and control. Our approach empowers businesses to achieve seamless integration, provide better insights and make smarter-decisions.</p>
         </article>
@@ -77,13 +77,13 @@ const Intro = () => {
 
 const Advantages = () => {
     return (
-        <section className="relative mx-auto mb-5 px-2 lg:my-10">
-            <div className="relative z-20 lg:h-[650px] lg:w-[650px] rounded-2xl bg-whitebg flex flex-col md:items-center lg:grid lg:grid-cols-3 lg:justify-items-center p-2 md:p-5 border-2 border-b-800">  
+        <section className="relative mx-auto mb-5 lg:my-10">
+            <div className="relative z-20 md:h-[650px] md:w-[650px] rounded-2xl bg-whitebg flex flex-col md:grid md:grid-cols-3 md:justify-items-center p-2 md:p-5 border-2 border-b-800">  
                 {content.map((item) => (
-                    <article key={item.id} className="lg:h-full lg:w-full flex lg:flex-col items-center p-2 md:my-5 lg:hover:bg-b-200 rounded-xl transition-all">
+                    <article key={item.id} className="md:h-full lg:w-full flex md:flex-col items-center p-2 lg:hover:bg-b-200 rounded-xl transition-all">
                         <img src={item.icon} className="h-[40px] w-[40px] lg:h-[50px] lg:w-[50px] m-3"></img>
-                        <h1 className="font-bold text-[17px] text-start lg:text-center py-2 ">{item.title}</h1>
-                        <p className="hidden lg:block">{item.text}</p>
+                        <h1 className="font-bold text-[17px] text-start md:text-center py-2">{item.title}</h1>
+                        <p className="hidden md:block">{item.text}</p>
                     </article>
                 ))}
             </div>

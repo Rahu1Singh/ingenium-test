@@ -58,7 +58,7 @@ const Navbar = () => {
             </div>
             {!openNavigation && 
             <div className="flex h-full gap-x-10">
-                <div className="hidden lg:flex items-center gap-x-5 mx-10 py-1">
+                <div className="hidden xl:flex items-center gap-x-5 py-1">
                     <img src={iso9001} width={80} />
                     <img src={iso45001} width={80} />
                     <img src={iso14001} width={80} />

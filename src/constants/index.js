@@ -203,7 +203,7 @@ export const dcimops = [
     },
     {
         id: "5",
-        text: "Capacity",
+        text: "Scalability",
         icon: quality,
     },
     {

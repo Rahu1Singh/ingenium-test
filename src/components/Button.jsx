@@ -5,7 +5,7 @@ const defaultClass = "text-sm lg:text-lg text-white my-4 rounded-md border-b-700
 const Button = ({className, link, children}) => {
   return ( 
     
-        <NavLink to={link} className={`block ${className ? className : defaultClass} px-5 py-3 border-2 border-solid transition-all flex justify-center`}>
+        <NavLink to={link} className={`block ${className ? className : defaultClass} px-3 lg:px-5 py-2 lg:py-3 border-2 border-solid transition-all flex justify-center`}>
             {children}
         </NavLink>
   )

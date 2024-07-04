@@ -26,15 +26,15 @@ export default DCIM
 const Header = () => {
     return (
         <section id="header" className='relative z-10 left-0 top-0 w-full h-[300px] xl:h-[460px] bg-b-200 p-10 flex items-center lg:mb-10 border-b-[20px] border-b-800 rounded-bl-3xl rounded-br-3xl' style={{backgroundImage: 'url(https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)', backgroundSize: 'cover'}}>
-            <h1 className='absolute bottom-16 left-[10%] text-5xl xl:text-6xl font-bold text-b-300'> Data Center<br/>Infrastructure Management</h1>
+            <h1 className='absolute bottom-16 left-[5%] lg:left-[10%] text-4xl xl:text-6xl font-bold text-b-300'> Data Center<br/>Infrastructure Management</h1>
         </section> 
     )
 }
 
 const Intro = () => {
     return (
-        <article className="flex flex-col md:flex-row justify-center my-10 py-10 md:w-3/4 mx-auto">
-                <div className="md:w-2/5 mx-10 my-5 font-semibold text-b-900 text-3xl xl:text-4xl md:text-right">DATA CENTER INFRASTRUCTURE <br className="hidden md:block" />MANAGEMENT<span className="text-black"> (DCIM)</span></div>
+        <article className="flex flex-col md:flex-row justify-center my-10 py-10 xl:w-3/4 mx-auto">
+                <div className="md:w-2/5 mx-10 my-5 font-semibold text-b-900 text-2xl xl:text-4xl md:text-right">DATA CENTER INFRASTRUCTURE <br className="hidden lg:block" />MANAGEMENT<span className="text-black max-lg:hidden"> (DCIM)</span></div>
             <div className="w-[4px] bg-black" aria-hidden="true" />
             <p className="md:w-3/5 mx-10 flex items-center xl:text-[17px]">At Ingenium, we specialize in delivering cutting-edge solutions for efficient data center infrastructure management. With our comprehensive suite of services and software solutions, we ensure optimal performance, energy efficiency, and reliability throughout your data center operations.</p>
         </article>
