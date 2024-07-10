@@ -35,7 +35,7 @@ const Intro = () => {
 
 const ServiceCard = ({children, img}) => {
   return (
-    	<div className="relative my-10">
+    	<div className="relative my-20">
     		<div className="relative xl:w-4/5 xl:min-h-[400px] z-10 mx-auto xl:bg-b-200 xl:rounded-3xl p-10 flex flex-row items-center">
 				<div className="hidden 2xl:block relative m-10">
 					<div className="relative w-[400px] h-[400px] z-10 rounded-3xl" >
