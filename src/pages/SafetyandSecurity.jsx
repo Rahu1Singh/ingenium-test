@@ -20,7 +20,7 @@ const SafetyandSecurity = () => {
       </article>
       <div className="my-32" aria-hidden="true" />
       <ProductsGrid productlist={fireproducts}/>
-      <p className="w-3/4 py-5 mt-15 mx-auto text-xl text-g-600 text-center">Protect your building occupants and assets with EcoStruxure Security Expert, an integrated rolebased physical access control and intrusion detection solution that unifies your building’s security infrastructure and management systems into an easy to manage, single platform that enables faster, more efficient, and potentially life-saving decision making.</p>
+      <p className="w-3/4 py-5 mt-15 mx-auto text-xl text-g-600 text-center">Protect your building occupants and assets with EcoStruxure Security Expert, an integrated role-based physical access control and intrusion detection solution that unifies your building’s security infrastructure and management systems into an easy to manage, single platform that enables faster, more efficient, and potentially life-saving decision making.</p>
       <article className=' max-lg:hidden flex flex-col items-center my-8 p-10'>
         <h1 className='relative text-g-600 font-semibold text-3xl max-xl:text-3xl mb-4'>SCHNEIDER - SECURITY EXPERT</h1>
         <div className='relative flex justify-center w-[700px]'>
