@@ -35,7 +35,7 @@ const ContactForm = () => {
             <h1 className='text-3xl font-medium py-2'>Let's get in touch</h1>
             <p>Send us your queries, suggestions & comments and we'll respond as soon as we can. We would love to hear from you!</p>
           </div>
-          <div className='flex flex-col w-3/4'>
+          <div className='flex flex-col'>
             <span className="flex flex-row items-center my-1"><MdMail size={16} aria-hidden="true" /><p className="inline-block mx-3">sales@ingeniumiae.com</p></span>
             <span className="flex flex-row items-center my-1"><MdMail size={16} aria-hidden="true" /><p className="inline-block mx-3">service@ingeniumiae.com</p></span>
             <span className="flex flex-row items-center my-1"><MdMail size={16} aria-hidden="true" /><p className="inline-block mx-3">enquiry@ingeniumiae.com</p></span>

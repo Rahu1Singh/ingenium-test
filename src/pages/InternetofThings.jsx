@@ -40,8 +40,9 @@ const InternetofThings = () => {
         <main className="bg-b-100 pb-10">
             <Header />
             <Intro />
-            <article className=' max-lg:hidden flex flex-col items-center my-16 p-10'>
-                <h1 className='relative text-b-900 font-semibold text-3xl max-xl:text-3xl mb-4'>ARCHITECTURE</h1>
+            <p className="w-3/4 py-5 mt-15 mx-auto text-xl text-g-600 text-center">EcoStruxure is Schneider Electric's IoT-enabled, plug-and-play, open, interoperable architecture and platform, in Homes, Buildings, Data Centres, Infrastructure and Industries. Innovation at Every Level from Connected Products to Edge Control and Apps, Analytics and Services.</p>
+            <article className=' max-lg:hidden flex flex-col items-center my-8 p-10'>
+                <h1 className='relative text-g-600 font-semibold text-3xl max-xl:text-3xl mb-4'>SCHNEIDER - IOT</h1>
                 <div className='relative flex justify-center max-w-[1200px]'>
                     <img src={iotarch} className='rounded-3xl z-10 border-4 border-b-800 ' alt='PA Architecture'/>
                     <div className='absolute w-full h-full top-[30px] left-[30px] bg-b-800 rounded-3xl' aria-hidden="true"/>
@@ -70,7 +71,7 @@ const Intro = () => {
         <article className="flex flex-col md:flex-row justify-center my-10 py-10 xl:w-3/4 mx-auto">
             <h1 className="md:w-2/5 mx-10 my-5 font-semibold text-b-900 text-2xl xl:text-4xl md:text-right">OUR PRODUCTS <br className="hidden md:block" />AND SOLUTIONS</h1>
             <div className="w-[4px] bg-black" aria-hidden="true" />
-            <p className="md:w-3/5 mx-10 flex items-center xl:text-[17px]">At Ingenium Automation, we offer IoT solutions that enhance industrial operations by connecting devices, centralizing data, and enabling real-time monitoring and control. Our approach empowers businesses to achieve seamless integration, provide better insights and make smarter-decisions.</p>
+            <p className="md:w-3/5 mx-10 flex items-center xl:text-[17px]">At Ingenium Automation, we offer IoT solutions that enhance industrial operations by connecting devices, centralizing data and enabling real-time monitoring and control. Our approach empowers businesses to achieve seamless integration, provide better insights and make smarter-decisions.</p>
         </article>
     )
 }

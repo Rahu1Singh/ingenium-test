@@ -61,6 +61,7 @@ const Addresses = () => {
                             <h1 className="my-2 flex gap-x-3 items-center font-bold text-lg">Engineering Office</h1>
                             <p className="my-2 mb-4">Axa Tower Lantai 36 Unit 5-6<br />Jalan Profesor Docktor Satrio Kaveling,<br />18, South Jakarta, Indonesia</p>
                             <h3 className="flex gap-x-3 items-center font-semibold"><span className='text-b-900 font-bold'>TEL:</span>+65 9109 9557</h3>
+                            <h3 className="flex gap-x-3 items-center font-semibold"><span className='text-b-900 font-bold'>&nbsp;</span></h3>
                             <img src={indonesiaqr} className="w-[140px] my-5"/>
                         </article>
                         </div>

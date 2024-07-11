@@ -8,9 +8,10 @@ const DCIM = () => {
         <div className="bg-b-100 pb-10">
             <Header />
             <Intro />
+            <div className="w-3/4 py-5 mx-auto text-xl text-g-600">Schneider Electric offers solutions and services to build new data centres or upgrade, retrofit and right-size on-premise, hybrid architectures of centralised, regional and local edge.</div>
             <Operations />
             <article className='max-lg:hidden flex flex-col items-center my-16 p-10'>
-                <h1 className='relative text-b-900 font-semibold text-3xl max-xl:text-3xl mb-4'>ARCHITECTURE</h1>
+                <h1 className='relative text-g-600 font-semibold text-3xl max-xl:text-3xl mb-4'>SCHNEIDER - DATA CENTER EXPERT</h1>
                 <div className='relative flex justify-center'>
                     <img src={dcimarch} className='rounded-3xl z-10 border-4 border-b-800 bg-white'/>
                     <div className='absolute w-full h-full top-[30px] left-[30px] bg-b-800 rounded-3xl' aria-hidden="true" />
@@ -36,9 +37,9 @@ const Intro = () => {
         <article className="flex flex-col md:flex-row justify-center my-10 py-10 xl:w-3/4 mx-auto">
                 <div className="md:w-2/5 mx-10 my-5 font-semibold text-b-900 text-2xl xl:text-4xl md:text-right">DATA CENTER INFRASTRUCTURE <br className="hidden lg:block" />MANAGEMENT<span className="text-black max-lg:hidden"> (DCIM)</span></div>
             <div className="w-[4px] bg-black" aria-hidden="true" />
-            <p className="md:w-3/5 mx-10 flex items-center xl:text-[17px]">At Ingenium, we specialize in delivering cutting-edge solutions for efficient data center infrastructure management. With our comprehensive suite of services and software solutions, we ensure optimal performance, energy efficiency, and reliability throughout your data center operations.</p>
+            <p className="md:w-3/5 mx-10 flex items-center xl:text-[17px]">At Ingenium, we offer solutions for efficient data center infrastructure management. With our comprehensive suite of services and software solutions, we ensure optimal performance, energy efficiency and reliability throughout your data center operations.</p>
         </article>
-    )
+    )
 }
 
 const Operations =() => {
