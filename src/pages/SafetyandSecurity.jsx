@@ -7,7 +7,7 @@ import { fearch, search } from "../assets"
 
 const SafetyandSecurity = () => {
   return (
-    <main className="bg-b-100">
+    <main className="bg-b-100 pb-10">
       <Header />
       <Intro />
       <EcostruxureFire />

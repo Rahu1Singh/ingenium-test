@@ -1,6 +1,6 @@
 import { accuracy, busywork, iotarch, realtime, safety, speed } from "../assets"
 import ProductsGrid from "../components/ProductsGrid"
-import { bmsproducts, paproducts } from "../products"
+import { bmsproducts, iotproducts, paproducts } from "../products"
 
 const content = [
     {
@@ -52,7 +52,7 @@ const InternetofThings = () => {
                 <h1 className='relative text-center text-b-900 font-semibold text-3xl max-xl:text-3xl'>ADVANTAGES</h1>
                 <Advantages />
             </section>
-            <ProductsGrid productlist={bmsproducts.concat(paproducts)} />
+            <ProductsGrid productlist={bmsproducts.concat(paproducts.concat(iotproducts))} />
         </main>
     )
 }

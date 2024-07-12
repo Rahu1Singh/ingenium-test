@@ -3,7 +3,7 @@
 export const bmsproducts = [
     {
         id: "0",
-    name: "SpaceLogic™ AS-P Automation Server",
+        name: "SpaceLogic™ AS-P Automation Server",
         img: "https://download.schneider-electric.com/files?p_Doc_Ref=106275233_AS-P_Controller_web&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
         desc: "Core of the Management System",
         link: "https://www.se.com/us/en/product-range/106275233-spacelogic-asp-automation-server/?parent-subcategory-id=104130294&filter=business-2-building-automation-and-control",
@@ -633,4 +633,43 @@ export const fielddevices = [
         desc:"",
         link:"https://www.se.com/in/en/product/TC903-3A4DPSA/thermostat-spacelogic-fan-coil-proportional-standalone-lcd-5-button-4p-3-fan-external-sensor-240v-white/",
     },
+]
+
+//iot products
+export const iotproducts = [
+    {
+        id: "0",
+        name:"Indoor air quality sensors",
+        img: "https://ecoxpert.se.com/documents/10807/32657645/CO2_Cover_Color.png/848c2b4a-a6e3-424d-ab25-dc14ffc678cc?t=1528868273000",
+        desc: "",
+        link:"https://ecoxpert.se.com/products/light-and-room-control/sensor-devices/air-quality-sensors/discover",
+    },
+    {
+        id: "1",
+        name: "Desk Sensor",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=EBIOTPCWD_Image_of_Product&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link:"https://www.se.com/hk/en/product/EBIOTPCWD/desk-occupancy-sensor-ecostruxure-buildingiot-sensor-solution-wireless/",
+    },
+    {
+        id: "2",
+        name: "Room Sensor",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=CSS54E_WE&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/in/en/product/CSS54E_WE/surface-mount-singleload-360-slim-pir-occupancy-sensor/",
+    },
+    {
+        id: "3",
+        name: "IoT Gateway",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=EBIOTPGW_Image_of_Product&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/uk/en/product/EBIOTPGW/gateway-ecostruxure-buildingiot-sensor-solution-wireless-lte-poe/",
+    },
+    {
+        id: "4",
+        name: "IoT Platform",
+        img: "https://download.schneider-electric.com/files?p_Doc_Ref=EcoStruxure-Building-Advisor&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
+        desc: "",
+        link: "https://www.se.com/us/en/product-range/39297330-ecostruxure-building-advisor/#overview",
+    }
 ]
